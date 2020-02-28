@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Index</title>
+	  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Arimo&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css\fontawesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css\all.min.css">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <link rel="stylesheet" type="text/css" href="portfolio.css">
+    <!-- <script src="C:\Users\AnumMehar\Desktop\100DaysOfCode\Florist\portfolio.js"></script> -->
+
+
+</head>
+<body>
+   
+
+	<header>
+  <div id="nav">
+    <img src="file:///C:/Users/AnumMehar/Downloads/man-in-white-dress-shirt-holding-suit-jacket-1043474.jpg">
+    <div id="leftside">
+<p>Hello I'm Bilal <br>
+  <span>
+    
+  </span>
+</p>
+  </div>
+  </div>
+</header>
+ <nav id="nav-3">
+  <a class="link-3" href="#">Home</a>
+  <a class="link-3" href="#profile">About</a>
+  <a class="link-3" href="#skill">Skills</a>
+  <a class="link-3" href="#contect">Contect</a>
+</nav>
+
+
+<section id="box">
+<div id="profile">
+    <img src="file:///C:/Users/AnumMehar/Downloads/man-in-white-dress-shirt-holding-suit-jacket-1043474.jpg" class="box-image">
+    <h1>bilal butt</h1>
+    <h5>Web Developer - Web Designer</h5> 
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+     Ut enim ad minim veniam,
+    </p>
+    <ul>
+
+      <li><a href="#"> <i class="fab fa-facebook-f icon"></i>   </a></li>
+      <li><a href="#"><i class="fab fa-twitter icon"></i></a></li>
+      <li><a href="#"><i class="fab fa-linkedin-in icon"></i></a></li>
+      <li><a href="#"><i class="fab fa-instagram icon"></i></a></li>
+    </ul>
+    
+  </div>
+  
+</section>
+    <section id="skill">
+      <h1>Skill Set</h1>
+<div class="container">
+  <div class="section">
+                  <h3>Front End:</h3>
+                  <div class="icon"><img src="html5.svg.png" width="60" height="64">
+                    <img src="bootsrap.png" width="60" height="64">   <img src="css.png" width="60" height="64">   <img src="angular.png" width="60" height="64"><img src="react.png" width="60" height="64">
+
+               </div>
+                </div>
+<div class="section">
+                  <h3>Back End:</h3>
+                  <div class="icon"><img src="mongodb.png" width="60" height="64">
+                    <img src="nodejs.jpg" width="60" height="64"><img src="firebase.png" width="60" height="64">
+                   </div>
+                </div>
+ <div class="section">
+                  <h3>Development Tool:</h3>
+                  <div class="icon"><img src="vscode.png" width="60" height="64">
+                   </div>
+                </div>
+</div>
+    </section>
+    <section id="contect">
+      <form class="my-form">
+  <div class="Container">
+    <h1 style="color:lightgrey; font-size: 40px; ">Contect</h1>
+    <ul>
+      
+      <li>
+        <div class="grid grid-2">
+          <input type="text" placeholder="Name" required>  
+          <input type="text" placeholder="Surname" required>
+        </div>
+      </li>
+      <li>
+        <div class="grid grid-2">
+          <input type="email" placeholder="Email" required>  
+          <input type="tel" placeholder="Phone">
+        </div>
+      </li>    
+      <li>
+        <textarea placeholder="Message"></textarea>
+      </li>   
+      <li>
+        <input type="checkbox" id="terms" >
+        <label for="terms" style="color: lightgrey;">I have read and agreed with <a href="">the terms and conditions.</a></label>
+      </li>  
+      <li>
+        <div class="grid grid-3">
+          <div class="required-msg" style="color: lightgrey">REQUIRED FIELDS</div>
+          <button class="btn-grid" type="submit" disabled>
+            <span class="back">
+              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/email-icon.svg" alt="">
+            </span>
+            <span class="front">SUBMIT</span>
+          </button>
+          <button class="btn-grid" type="reset" disabled>
+            <span class="back">
+              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/eraser-icon.svg" alt="">
+            </span>
+            <span class="front">RESET</span>
+          </button> 
+        </div>
+      </li>    
+    </ul>
+  </div>
+</form>
+      
+    </section>
+    <footer>
+       <ul>
+
+      <li><a href="#"> <i class="fab fa-facebook-f icon"></i>   </a></li>
+      <li><a href="#"><i class="fab fa-twitter icon"></i></a></li>
+      <li><a href="#"><i class="fab fa-linkedin-in icon"></i></a></li>
+      <li><a href="#"><i class="fab fa-instagram icon"></i></a></li>
+    </ul>
+    <span>@2020 Made With &#9829; BY @anamnaz </span>
+    </footer>
+
+<script>
+var span, textArr, textIndex, textToShow, textToShowLen, letterIndex, textTimer, letterTimer, textDelay, letterDelay, emptyTimer;
+
+textArr = [
+  "Simple",
+  'Smart',
+  'Creative',
+  'Awesome',
+  'Designer'
+]
+
+span = document.getElementsByTagName("span")[0];
+textIndex = 0;
+textDelay= 2300;
+letterDelay = 130;
+
+function showText() {
+  textToShow = textArr[textIndex];
+  textToShowLen = textToShow.length;
+  letterIndex = 0;
+  
+  letterTimer = setInterval(function() {
+    span.textContent += textToShow[letterIndex];
+    console.log(textToShow[letterIndex]);
+    letterIndex++;
+    if (letterIndex > textToShowLen-1) {
+      clearInterval(letterTimer);
+      textTimer = setTimeout(nextText, textDelay)
+    }
+  } ,letterDelay)
+  
+}
+
+function nextText() {
+  clearTimeout(textTimer);
+  textIndex++;
+  if (textIndex > textArr.length-1) {
+    textIndex = 0;
+  }
+  emptySpan();
+
+}
+
+function emptySpan() {
+  emptyTimer = setInterval(removeLetter, letterDelay/2)
+}
+
+
+function removeLetter() {
+  if (span.textContent.length != 0) {
+    popedSpan = Array.prototype.slice.call(span.textContent).slice(0,span.textContent.length-1).join('');
+    span.textContent = popedSpan;
+  } else {
+    clearInterval(emptyTimer);
+    showText();
+  }
+}
+
+emptySpan();
+
+
+
+const checkbox = document.querySelector('.my-form input[type="checkbox"]');
+const btns = document.querySelectorAll(".my-form button");
+
+checkbox.addEventListener("change", function() {
+  const checked = this.checked;
+  for (const btn of btns) {
+    checked ? (btn.disabled = false) : (btn.disabled = true);
+  }
+});
+</script>
+
+
+</body>
+</html>
